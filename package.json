@@ -1,0 +1,31 @@
+{
+  "name": "pankti-vscode",
+  "displayName": "pankti-vscode",
+  "description": "VS Code language support for pankti programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "pankti",
+      "aliases": ["Pankti", "pankti"],
+      "extensions": [".pank",".pank.txt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "pankti",
+      "scopeName": "source.pankti",
+      "path": "./syntaxes/pankti.tmLanguage.json"
+    }],
+    "snippets": [
+      {
+        "language": "pankti",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

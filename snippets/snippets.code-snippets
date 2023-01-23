@@ -1,0 +1,61 @@
+{
+    "show": {
+        "scope": "pankti",
+        "prefix": "show",
+        "body": [
+            "show($1)",
+            "$2"
+        ],
+        "description": "Print to Stdout"
+    },
+    "dekhao": {
+        "scope": "pankti",
+        "prefix": "dekhao",
+        "body": [
+            "dekhao($1)",
+            "$2"
+        ],
+        "description": "Print to Stdout"
+    },
+    "dekhau": {
+        "scope": "pankti",
+        "prefix": "dekhau",
+        "body": [
+            "dekhau($1)",
+            "$2"
+        ],
+        "description": "Print to Stdout"
+    },
+    "jodi": {
+        "scope": "pankti",
+        "prefix": "jodi",
+        "body": [
+            "jodi($1) tahole",
+            "nahole $2 sesh",
+            
+        ],
+        "description": "If Else"
+    },
+    "jotokhon": {
+        "scope": "pankti",
+        "prefix": "jotokhon",
+        "body": [
+            "jotokhon($1)",
+            "$2",
+            "sesh"
+            
+        ],
+        "description": "While Loop"
+    },
+
+    "dhori": {
+        "scope": "pankti",
+        "prefix": "dhori",
+        "body": [
+            "dhori $1 = $2",
+            
+            
+        ],
+        "description": "Let"
+    }
+}

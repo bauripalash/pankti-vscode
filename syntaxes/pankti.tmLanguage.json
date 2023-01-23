@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Pankti",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.pankti",
+				"match": "\\b(dhori|let|ধরি|if|যদি|jodi|while|jotokhon|যতক্ষণ|return|ferao|ferau|ফেরাও)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.pankti",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.pankti",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.pankti"
+}
